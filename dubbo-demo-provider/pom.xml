@@ -10,12 +10,9 @@
   <groupId>org.keith</groupId>
   <artifactId>dubbo-demo-provider</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <name>dubbo-demo-provider</name>
-  <url>http://maven.apache.org</url> 
-  <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-  </properties>
-  
+  <packaging>war</packaging>
+  <name>dubbo-demo-provider Maven Webapp</name>
+  <url>http://maven.apache.org</url>
   <dependencies>
   
 	<dependency>
@@ -60,4 +57,7 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <build>
+    <finalName>dubbo-demo-provider</finalName>
+  </build>
 </project>
