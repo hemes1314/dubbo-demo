@@ -2,19 +2,20 @@
 <project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
+  
   <parent>
     <groupId>org.keith</groupId>
     <artifactId>dubbo-demo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
+  
   <groupId>org.keith</groupId>
   <artifactId>dubbo-demo-provider</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
-  <name>dubbo-demo-provider Maven Webapp</name>
-  <url>http://maven.apache.org</url>
-  <dependencies>
+  <name>dubbo-demo-provider</name>
   
+  <dependencies>
 	<dependency>
 		<groupId>org.keith</groupId>
 		<artifactId>dubbo-demo-api</artifactId>
